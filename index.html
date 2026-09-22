@@ -516,7 +516,7 @@ const CONFIG = {
 
       <div class="detail-card" id="highcapDetail">
         <div class="detail-title-row">
-          <span class="detail-title">🌉 2차년도 고하이캡 브릿지 시상금</span>
+          <span class="detail-title">🌉 2차년도 고하이캡 시상금</span>
           <span class="detail-amount" id="highcapAmount"></span>
         </div>
         <div class="detail-sub" id="highcapSub"></div>
@@ -525,7 +525,7 @@ const CONFIG = {
 
       <div class="detail-card" id="mainProductDetail">
         <div class="detail-title-row">
-          <span class="detail-title">🎯 2차년도 주력상품 브릿지 시상금</span>
+          <span class="detail-title">🎯 2차년도 주력상품 시상금</span>
           <span class="detail-amount" id="mainProductAmount"></span>
         </div>
         <div class="detail-sub" id="mainProductSub"></div>
@@ -546,8 +546,8 @@ const CONFIG = {
         <div class="detail-section-title"><span class="bar"></span><span id="summaryTitle"></span>님의 전체 시상 현황</div>
 
         <div class="summary-row"><span class="summary-label">🃏 하이스타 조커</span><span class="summary-status" id="sumJokerStatus"></span><span class="summary-amount" id="sumJokerAmount"></span></div>
-        <div class="summary-row"><span class="summary-label">🌉 고하이캡 브릿지</span><span class="summary-status" id="sumHighcapStatus"></span><span class="summary-amount" id="sumHighcapAmount"></span></div>
-        <div class="summary-row"><span class="summary-label">🎯 주력상품 브릿지</span><span class="summary-status" id="sumMainProductStatus"></span><span class="summary-amount" id="sumMainProductAmount"></span></div>
+        <div class="summary-row"><span class="summary-label">🌉 고하이캡</span><span class="summary-status" id="sumHighcapStatus"></span><span class="summary-amount" id="sumHighcapAmount"></span></div>
+        <div class="summary-row"><span class="summary-label">🎯 주력상품</span><span class="summary-status" id="sumMainProductStatus"></span><span class="summary-amount" id="sumMainProductAmount"></span></div>
         <div class="summary-row"><span class="summary-label">🚗 운전자보험</span><span class="summary-status" id="sumDriverStatus"></span><span class="summary-amount" id="sumDriverAmount"></span></div>
 
         <div class="summary-divider"></div>
@@ -650,8 +650,8 @@ const CONFIG = {
 
     // ---- 나머지 3가지 시상, 독립 판정 (서로 합산/환산하지 않음) ----
     const categories = [
-      { key:'highcap', emoji:'🌉', label:'2차년도 고하이캡 브릿지 시상금', value:highcapRaw, tiers:CONFIG.highcapTiers, unit:'원' },
-      { key:'mainProduct', emoji:'🎯', label:'2차년도 주력상품 브릿지 시상금', value:mainProduct, tiers:CONFIG.mainProductTiers, unit:'원' },
+      { key:'highcap', emoji:'🌉', label:'2차년도 고하이캡 시상금', value:highcapRaw, tiers:CONFIG.highcapTiers, unit:'원' },
+      { key:'mainProduct', emoji:'🎯', label:'2차년도 주력상품 시상금', value:mainProduct, tiers:CONFIG.mainProductTiers, unit:'원' },
       { key:'driver', emoji:'🚗', label:'운전자보험 시상', value:driver, tiers:CONFIG.driverTiers, unit:'건' }
     ];
     categories.forEach(c => {
